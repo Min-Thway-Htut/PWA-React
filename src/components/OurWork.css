@@ -1,0 +1,48 @@
+.main-container{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f7fa;
+}
+#first-title{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: #009374;
+}
+#second-title{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #009374;
+    font-size: 25px;
+}
+.paragraph p{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 13px;
+}
+.image img{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+.project-partners {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px; /* Limit the width of the list */
+    margin-left: 4px; /* Center the list horizontally */
+}
+.project-partners ul{
+    list-style-type: none;
+    padding: 0;
+}
+.project-partners li{
+    font-size: 15px;
+    color: blue;
+    margin-top: 10px;
+    margin-top: 10px;
+}

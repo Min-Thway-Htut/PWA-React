@@ -1,0 +1,53 @@
+.navbarMain {
+    grid-area: navbarMain;
+    background-color: greenyellow;
+  }
+
+.navbarMain * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+header {
+    background-color:#212a3c;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    padding: 1rem 0;
+  }
+
+  .navbarMain nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbarMain nav .logo{
+    color: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  .navbarMain .nav-link{
+    display: flex;
+    color: green;
+  }
+  .navbarMain .nav-link li{
+    list-style: none;
+    margin: 0 0.5rem;
+    background-color: brown;
+    border-radius: 10px;
+  }
+  .navbarMain ul li a{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding: 2rem 1rem;
+    display: block;
+    border-radius: 15px;
+  }
+
+  .navbarMain ul li a:hover{
+    background-color: var(--fraunhofer-color);
+    color: black;
+  }
+  
+  
