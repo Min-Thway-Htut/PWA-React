@@ -1,1 +1,1 @@
-# React | PWA
+# React App | PWA
